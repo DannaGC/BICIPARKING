@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+:root{
+  --main-color: #2b2e2e;
+  --black:#1b1e26;
+  --red: #e74c3c;
+  --oragen: #f39c12;
+  --white: #fff;
+  --light-color: --white;
+  --light-bg: #eee;
+  --border:.1rem olid rgba(0,0,0,.2);
+}
+
+*{
+  font-family: 'Edu SA Beginner', cursive;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+}
+
+*::selection{
+  background-color: var(--main-color);
+  color:#00f0ff;
+}
+
+*::-webkit-scrollbar{
+  height: .5rem;
+  width: 1rem;
+}
+
+*::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+}
+
+html{
+  font-size: 120.5%;
+  font-size: 120.5%;
+  background: rgb(11, 39, 54);
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: var(--light-color);
+}
+
+section{
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn,
+.option-btn,
+.optioon-btn,
+.delete-btn,
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn{
+  border-radius: 1rem;
+  padding: 0.1rem 2rem;
+  font-size: 1.5rem;
+  color: var(--black);
+  margin-top: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn,
+.option-btn,
+.optioon-btn,
+.delete-btn{
+  display: block;
+  width: 100%;
+}
+
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn{
+  display: inline-block;
+}
+
+.btn,
+.inline-btn{
+  background-color: #44b4c4;
+}
+
+.option-btn,
+.inline-option-btn{
+  background-color: #80c9c6;
+}
+
+.delete-btn,
+.inline-delete-btn{
+  background-color: #a3d5d1;
+}
+
+.optioon-btn,
+.inline-optioon-btn{
+  background-color: #c8e5e3;
+}
+
+.btn:hover,
+.option-btn:hover,
+.optioon-btn:hover,
+.delete-btn:hover,
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover{
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.header{
+  background-color: var(--main-color);
+  border-bottom: var(--border);
+  position: sticky;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+}
+
+.header .flex{
+  padding: .5rem 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .flex .logo{
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: bolder;
+}
+.header .flex .logo img{
+  width: 100px;
+}
+
+.header .flex .icons div{
+  font-size:1.5rem;
+  color: var(--black);
+  border-radius: .5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  background-color: var(--light-bg);
+  text-align: center;
+  margin-left: .5rem;
+}
+
+.header .flex .icons div:hover{
+  background-color: var(--light-color);
+  color: var(--white);
+}
+
+
+.header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: -50px;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  width: 15rem;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: .3s linear;
+}
+
+.header .flex .profile.active{
+  transform: scale(1);
+}
+
+.header .flex .profile img{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: .5rem;
+}
+
+.header .flex .profile span{
+  font-size: 2rem;
+  color: var(--black);
+  text-align: center;
+}
+.l{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.intro{
+  text-align: center;
+  background: rgb(9, 27, 31);
+  border: 2px solid white;
+  width: 600px;
+  height: 100px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 25px 25px 40px 0px #000000;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+}
+
+.intro h1{
+  color: #00f0ff;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One';
+}
+
+.intro span{
+    color: #fff;
+}
+table{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 800px;
+  background: #000000;
+  box-shadow:25px 25px 40px 0px rgb(0, 0, 0) ;
+}
+
+table th{
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  background: #00f0ff;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+table td{
+  border:1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+.tabla{
+  display: flex;
+  justify-content: center;
+  
+}
+table button{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  background: #d1f9fd;
+
+}
+table button:hover{
+  cursor: pointer;
+  background: #4cf3ff;
+}
+.modal {
+
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(178, 233, 247, 0.7);
+}
+
+.modal-content {
+  border-radius: 20px;
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+.modal button{
+  margin: 20px;
+  background: #2b2e2e;
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+}
+.modal button:hover{
+  background: #00f0ff;
+}
+.modal .letra{
+  border: 2px solid #2b2e2e;
+  border-radius: 20px;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  text-align: inherit;
+}

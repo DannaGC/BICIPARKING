@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cabin+Condensed&family=PT+Serif:wght@700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:  #111;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.faq-title {
+  color:rgb(0, 255, 255);
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  text-align: center;
+
+}
+
+.accordion {
+  width: 100%;
+  max-width: 800px;
+}
+
+.accordion-title {
+  border: 1px solid rgb(0, 255, 255);
+  background: rgba(11, 39, 54, 0.6);
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  color: rgb(0, 255, 255);
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: rgb(0, 255, 255);
+    padding: 10px 80px;
+    color: rgb(11, 39, 54);
+  }
+}
+
+.accordion-content {
+  color:  rgb(255, 255, 255);
+  display: none;
+  padding: 15px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+#return-btn {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(0, 255, 255);
+  font-size: 25px;
+  color: black;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: rgba(11, 39, 54, 0.685);
+    padding: 10px 80px;
+  }
+}
+
+a {
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+}

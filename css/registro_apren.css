@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Cabin+Condensed&family=PT+Serif:wght@700&display=swap');
+
+* {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Philosopher', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #111;
+  background-repeat: no-repeat;
+}
+
+.signupSection {
+  background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 715px; /* Actualicé la altura */
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+}
+
+.info {
+    font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+  width: 45%;
+  background: rgba(20, 20, 20, .8);
+  padding: 30px 0;
+  border-right: 5px solid rgba(30, 30, 30, .8);
+}
+
+.info h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  padding-top: 30px;
+  font-weight: 300;
+  font-size: 40px;
+  color: rgb(0, 255, 255);
+}
+
+.info p {
+  font-size: 15px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+.info .icon {
+
+  font-size: 8em;
+  padding: 20px 0;
+  color: rgba(10, 180, 180, 1);
+  border-radius: 10px;
+}
+
+.signupForm {
+  width: 70%;
+  padding: 30px 0;
+  background: rgba(20, 40, 40, .8);
+  transition: .2s;
+}
+
+.signupForm h2 {
+  color: rgb(0, 255, 255);
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-size: 40px;
+}
+
+.inputFields {
+  margin: 15px 0;
+  font-size: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color: white;
+  outline: none;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+#join-btn-cod {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(0, 255, 255);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  width: 45px;
+  padding: 10px 28px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#join-btn-cod:hover {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  background: rgba(11, 39, 54, 0.813);
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 70px;
+
+}
+
+#join-btn {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(0, 255, 255);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding: 8px 70px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#join-btn:hover {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  background: rgba(11, 39, 54, 0.813);
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 70px;
+}
+
+a {
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+}

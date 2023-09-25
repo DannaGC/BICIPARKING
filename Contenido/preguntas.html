@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" text="text/css" href="../css/styles_pregun.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>BICIPARKING - Preguntas Frecuentes</title>
+</head>
+<body>
+  <div class="faq-container">
+    <div class="accordion">
+      <h2 class="faq-title">Preguntas Frecuentes</h2>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Quienes somos?</div>
+        <div class="accordion-content">
+          Somos cuatro aprendices de programación de software del SENA que unieron sus habilidades de programación y diseño para crear la empresa SisProTecSoft,
+          una empresa dedicada a ofrecer soluciones de software flexibles y escalables que se adaptan a los requisitos específicos de cada cliente. 
+          En esta oportunidad, SisProTecSoft se dedicó a la digitalización del parqueadero de bicicletas del SENA para hacerlo más eficaz y así mejorar
+          su funcionalidad y la experiencia del usuario. Si quieres saber más de nosotros, haz clic aquí: <a href="quienes_somos.html">¿Quiénes Somos?</a>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Quiénes pueden acceder al BiciParking?</div>
+        <div class="accordion-content">
+          En el BiciParking solo podrán ingresar los aprendices y personal que estén en las instalaciones del SENA y que estén inscritos en nuestra 
+          página. Si quieres hacer uso del BiciParking, inscríbete haciendo clic aquí: <a href="../Aprendiz/pages/registro_aprendiz.php">Registrarse.</a>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Cuáles son los horarios de funcionamiento?</div>
+        <div class="accordion-content">
+          El BiciParking está disponible para uso durante todo el horario laboral del SENA, desde las 6:00 AM hasta las 10:00 PM.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Dónde puedo ver el manual de usuarios?</div>
+        <div class="accordion-content">
+          En el manual de usuarios encontrarás todas las guías de cómo usar el BiciParking de manera correcta. Nuestro manual está 
+          ubicado en la parte superior derecha de la página principal, dando clic en las tres líneas. Si quieres verlo, 
+          haz clic aquí: <a href="#">Manual de usuarios.</a>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Qué hago si necesito actualizar mis datos o si olvidé mi contraseña/código?</div>
+        <div class="accordion-content">
+            Para realizar cualquiera de los procedimientos mencionados anteriormente, puedes consultar nuestro manual de usuario.
+            En él encontrarás videos y podrás guiarte fácilmente, ya que describe de manera rápida y detallada cómo tener un uso adecuado de la página
+            BICIPARKING. Si quieres verlo, haz clic aquí: <a href="#">Manual de usuarios.</a>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-title">¿Dónde puedo enviar mis sugerencias?</div>
+        <div class="accordion-content">
+            Si quieres calificarnos, dejarnos tus sugerencias y/o opiniones acerca del BiciParking, hazlo en nuestro buzón de 
+            sugerencias. Si quieres verlo, haz clic aquí: <a href="buzon.html">Buzón de Sugerencias.</a>
+        </div>
+      </div>
+    </div>
+    <a href="inicio.html" id="return-btn">Volver al inicio</a>
+  </div>
+
+  <script>
+    const accordionItems = document.querySelectorAll('.accordion-item');
+    accordionItems.forEach(item => {
+      const title = item.querySelector('.accordion-title');
+      const content = item.querySelector('.accordion-content');
+
+      title.addEventListener('click', () => {
+        content.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>

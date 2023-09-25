@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+:root{
+  --main-color: #2b2e2e;
+  --black:#1b1e26;
+  --red: #e74c3c;
+  --oragen: #f39c12;
+  --white: #fff;
+  --light-color: --white;
+  --light-bg: #eee;
+  --border:.1rem olid rgba(0,0,0,.2);
+}
+
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+html{
+  font-size: 120.5%;
+  font-size: 120.5%;
+  background: rgb(11, 39, 54);
+  height: 100%;
+  overflow-x: hidden;
+}
+
+section{
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.titulo{
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: -10%;
+
+}
+.titulo h2{
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-size: 7.5rem;
+  color: rgb(0, 255, 255);
+}
+
+.m{
+    display: flex;
+   justify-content: center;
+   margin: 15px;
+   text-align: center;
+   font-family: 'Alfa Slab One', cursive;
+   font-family: 'Cabin Condensed', sans-serif;
+   font-family: 'PT Serif', serif;
+
+}
+.mensaje{
+    height: 100px;
+    width: 850px;
+    background: #000000;
+    border-radius: 20px;
+    box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.33);
+    border: 1px solid white;
+    color:#00f0ff;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.m  .spc {
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.spc small{
+    color:white;
+    font-size: 200%;
+     margin: 40px;
+     font-family: 'Alfa Slab One', cursive;
+     font-family: 'Cabin Condensed', sans-serif;
+     font-family: 'PT Serif', serif;
+}
+.spc h1{
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+ .sday span{
+  margin: 40px;
+ font-size: 150%;
+ color: #fff;
+}
+.cont{
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.seccion{
+  background: #000000;
+  width: 400px;
+  height: 250px;
+  border-radius: 40px;
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.793);
+  border: 2px solid rgb(0, 255, 255);
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+}
+
+.seccion h1 {
+  color: rgb(0, 255, 255);
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+}
+
+.n img{
+  width: 80px;
+  height: 80px;
+}
+.n{
+  text-align: center;
+  color: #fff;
+}
+ .f h2{
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+ }
+ .bot {
+  display: grid;
+  justify-content: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+  
+ }
+ .bot{
+  display: flex;
+  justify-content: space-evenly;
+ }
+  .bot button{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(0, 255, 255);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+  }
+  .bot button:hover{
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+    background: rgba(11, 39, 54, 0.813);
+    color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 80px;
+  }
+  .mensaje{
+    display: flex;
+    justify-content: center;
+  }
+  .puesto{
+    display: flex;
+    justify-content: center;
+  }
+  .conte{
+  margin: 20px;
+  border-radius: 20px;
+  background: #1b1e26;
+  border: 1px solid #fff;
+  width: 300px;
+  height: 110px;
+  text-align: center;
+  color: #fff;
+  }
+.formulario2{
+  display: flex;
+  justify-content: center;
+  background: #000000;
+  width: 300px;
+  height:300px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 255, 255);
+  color: rgb(0, 255, 255);
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.793);
+  margin: 20px;
+}
+.formulario2 .j{
+  width: 200px;
+  height: 30px;
+  border: 2px solid #2b2e2e;
+  margin: 10px;
+  color: whitesmoke;
+  border-radius: 10px;
+  background: rgba(22, 53, 70, 0.698);
+}
+
+.formulario2 h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+}
+
+.formulario1{
+  display: flex;
+  justify-content: center;
+  background: #000000;
+  width: 300px;
+  height:250px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid rgb(0, 255, 255);
+  color: rgb(0, 255, 255);
+  box-shadow: 25px 25px 40px 0px rgba(0, 0, 0, 0.793);
+  margin: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Black Ops One', cursive;
+}
+.formulario1 .j{
+  width: 200px;
+  height: 30px;
+  border: 2px solid #2b2e2e;
+  margin: 10px;
+  border-radius: 16px;
+  background: rgba(22, 53, 70, 0.698);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="../../css/styles_apren.css">
+    <title>Registro Formulario</title>
+  </head>
+  <body>
+    <div class="signupSection">
+      <div class="info">
+        <h2>BICIPARKING</h2>
+        <img src="../../img/logo_aprendiz.png" height="250px" class="icon" aria-hidden="true">
+        <p>¡Bienvenido!</p>
+      </div>
+      <form action="../modelos/validar.php" method="POST" class="signupForm" name="signupform">
+        <h2>INGRESAR</h2>
+        <ul class="noBullet">
+          <li>
+            <label for="username"></label>
+            <input type="text" class="inputFields" id="username" name="usuario" autocomplete="off" placeholder="Código de registro" value="" oninput="" required/>
+          </li>
+          <li>
+            <label for="password"></label>
+            <input type="password" class="inputFields" id="password" name="contraseña" autocomplete="off" placeholder="Contraseña" value="" oninput="" required/>
+          </li>
+          <li id="center-btn">
+            <input type="submit" id="join-btn" name="ingresar" alt="Join" value="INGRESAR" oninput="">
+          </li>
+        </ul>
+        <a href="../../Obtenciones/recuperar_contra.html" style="text-decoration: none; color: azure;">¿Olvido su contraseña?</a>
+        <p><a href="registro_aprendiz.php" style="text-decoration: none; color: azure;">Registrarse</a></p>
+      </form>
+    </div>
+    <script rel="stylesheet" href="../../js/ingresos.js"></script>
+  </body>
+</html>
